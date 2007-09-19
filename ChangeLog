@@ -1,0 +1,34 @@
+2007-08-24  Diab Jerius  <djerius@cfa.harvard.edu>
+
+	Tag: 0.02
+
+2007-08-24  djerius  <djerius@cfa.harvard.edu>
+
+	* lib/Config/PFiles/Path.pm, t/import0.t, t/import_append.t,
+	t/import_prepend.t, t/import_remove.t, t/import_replace.t:
+	added ability to manipulate $ENV{PFILES} on module load
+	[1febb2f7350f] [tip]
+
+	* t/00-load.t:
+	remove taint for convenience
+	[495aa844c8ff]
+
+	* .hgtags:
+	Added tag 0.01 for changeset f3ca14213ec6
+	[7fdd7994d49e]
+
+	* MANIFEST.SKIP:
+	required to avoid sucking up everything
+	[f3ca14213ec6] [0.01]
+
+	* ChangeLog:
+	update for release
+	[43e8a7c9a1ef]
+
+	* ChangeLog, Changes, LICENSE, Makefile.PL, README,
+	lib/Config/PFiles/Path.pm, t/00-load.t, t/class.t, t/export.t,
+	t/extract.t, t/mutator.t, t/new.t, t/perlcritic.t, t/pod-coverage.t,
+	t/pod.t:
+	initial release
+	[07a18640a812]
+

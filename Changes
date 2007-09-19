@@ -1,0 +1,10 @@
+Revision history for Config-PFiles-Path
+
+0.02
+
+       * now can manipulate $ENV{PFILES} on module load
+
+
+0.01  
+       Initial release.
+
